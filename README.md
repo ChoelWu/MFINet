@@ -40,9 +40,11 @@
 
 ## 3. Usage
 1. Train
+
 `python 2_train_dynamic.py --device 0 --dataset DRIVE --data_path /home/data/dataset/ --model UNet --epoch 200 --batch_size 1024 --patch_num 10000 --logs_path /home/data/logs/ --lr 0.001`
 
 2. Test
+
 `python 3_test.py --device 0 --check_path YOUR_LOG_PATH`
 
 ## 4. Result
